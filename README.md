@@ -5,8 +5,8 @@ Technologies and libraries
 ### Dagger2
 ### OKHttp2
 ### MVP
-### RxJava
-### rxandroid
+### rxJava
+### rxAndroid
 ### butterknife
 ### glide
 ### Mockito
