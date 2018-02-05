@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ItemStyle"
+    android:background="@drawable/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/departure_name"
+        style="@style/DepartureNameStyle"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="4dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/departure_line_code"
+        style="@style/DepartureLineStyle"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        tools:ignore="MissingPrefix" />
+
+    <TextView
+        android:id="@+id/departure_time"
+        style="@style/DepartureTimeStyle"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center" />
+</RelativeLayout>

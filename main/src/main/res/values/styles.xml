@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ItemHeaderStyle">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="CollapsingToolbarStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="ItemStyle">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">@dimen/activity_horizontal_padding</item>
+    </style>
+
+    <style name="DepartureNameStyle">
+        <item name="android:padding">@dimen/not_so_huge_padding</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DepartureTimeStyle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:height">20dp</item>
+        <item name="android:padding">18sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="DepartureLineStyle">
+        <item name="android:layout_below">@id/departure_name</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:height">20dp</item>
+        <item name="android:padding">@dimen/not_so_huge_padding</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="RecycleViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:keepScreenOn">true</item>
+        <item name="android:padding">@dimen/t13</item>
+        <item name="android:scrollbarStyle">insideInset</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="HeaderText">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/huge_padding</item>
+        <item name="android:text">@string/direction_route</item>
+    </style>
+</resources>
